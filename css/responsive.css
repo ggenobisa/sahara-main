@@ -2,8 +2,13 @@
 img {max-width:100%}
 /*--------------RESPONSIVE CSS ----------------*/
 @media screen and (max-width:1366px) {
+    .hero {background: url(../img/banner-desktop.jpg) 75% 0% no-repeat;}
     .hero .offer-text {left: 5%;}
+    .howtoplay .howtoplay-steps {grid-template-columns: 1fr;}
+    .howtoplay .howtoplay-steps .col {margin-bottom: 20px; max-width: 450px; width: 100%; justify-content: unset; padding: 0 2rem;}
     .genting-casino .genting-container p {font-size: 27px;padding: 0 2rem;}
+    .hero .offer-text h1 {font-size: 70px;}
+    .hero .offer-text h2 {font-size: 48px;}
     
 }/****1366px****/
 
@@ -74,7 +79,7 @@ img {max-width:100%}
     /* .hero {background: url('../img/mobile/banner-m.jpg') 90% center/cover no-repeat;} */
     .hero .logo {top: 5%}
     .hero .logo img {width: 300px;}
-    .hero .offer-text {bottom: 19%;}
+    .hero .offer-text {bottom: 20%;}
     .hero .offer-text h2 {font-size: 30px;}
     
   
