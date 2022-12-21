@@ -90,11 +90,15 @@ img {max-width:100%}
     .splide__slide img {width:52vw}
     .splide { margin-right: -1rem;}
 
-    .hero {background: url('../img/mobile/banner-m.jpg') 90% center/cover no-repeat;}
+    /* .hero {background: url('../img/mobile/banner-m.jpg') 90% center/cover no-repeat;} */
     .hero .offer-text {bottom: 22%;}
     .hero .offer-text h2 {font-size: 23px;}
     .hero .offer-text h1 {font-size: 36px;}
 }/****640px****/
+
+@media screen and (max-width:414px) {
+    .hero {background: url('../img/mobile/banner-m.jpg') center center/cover no-repeat;}
+}
 
 @media screen and (max-width:375px) {
     .hero {background: url('../img/mobile/banner-m.jpg') center center/cover no-repeat;}
