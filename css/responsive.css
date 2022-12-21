@@ -76,7 +76,6 @@ img {max-width:100%}
 }/****940px LANDSCAPE****/
 
 @media screen and (min-width:480px) and (max-width:767px) {
-    /* .hero {background: url('../img/mobile/banner-m.jpg') 90% center/cover no-repeat;} */
     .hero .logo {top: 5%}
     .hero .logo img {width: 300px;}
     .hero .offer-text {bottom: 20%;}
@@ -90,7 +89,6 @@ img {max-width:100%}
     .splide__slide img {width:52vw}
     .splide { margin-right: -1rem;}
 
-    /* .hero {background: url('../img/mobile/banner-m.jpg') 90% center/cover no-repeat;} */
     .hero .offer-text {bottom: 22%;}
     .hero .offer-text h2 {font-size: 23px;}
     .hero .offer-text h1 {font-size: 36px;}
