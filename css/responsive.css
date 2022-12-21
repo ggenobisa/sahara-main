@@ -73,7 +73,7 @@ img {max-width:100%}
     .hero {background: url('../img/mobile/banner-m.jpg') 90% center/cover no-repeat;}
     .hero .logo {top: 5%}
     .hero .logo img {width: 300px;}
-    .hero .offer-text {bottom: 17%;}
+    .hero .offer-text {bottom: 19%;}
     .hero .offer-text h2 {font-size: 30px;}
     
   
@@ -84,8 +84,7 @@ img {max-width:100%}
     .splide__slide img {width:52vw}
     .splide { margin-right: -1rem;}
 
-.hero {background: url('../img/mobile/banner-m.jpg') 90% center/cover no-repeat;}
-    .hero .offer-text {bottom: 25%;}
+    .hero {background: url('../img/mobile/banner-m.jpg') 90% center/cover no-repeat;}
     .hero .offer-text h2 {font-size: 23px;}
     .hero .offer-text h1 {font-size: 36px;}
 }/****640px****/
@@ -93,5 +92,5 @@ img {max-width:100%}
 @media screen and (max-width:375px) {
     .hero {background: url('../img/mobile/banner-m.jpg') center center/cover no-repeat;}
     .hero .logo img {width: 250px;}
-    .hero .offer-text {bottom: 28%;}
+    .hero .offer-text {bottom: 30%;}
 }
