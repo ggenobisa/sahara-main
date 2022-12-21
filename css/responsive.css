@@ -93,5 +93,5 @@ img {max-width:100%}
 @media screen and (max-width:375px) {
     .hero {background: url('../img/mobile/banner-m.jpg') center center/cover no-repeat;}
     .hero .logo img {width: 250px;}
-    .hero .offer-text {bottom: 27%;}
+    .hero .offer-text {bottom: 28%;}
 }
