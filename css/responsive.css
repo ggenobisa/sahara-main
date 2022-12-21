@@ -23,12 +23,12 @@ img {max-width:100%}
 @media screen and (max-width:940px) {
     .hide-mobile {display: none;}
     .hide-desktop {display: block;}
-    .hero {background: url('../img/mobile/banner-m.jpg') center center/cover no-repeat;}
-    .hero .logo {top: 4%;left: 0;right: 0;}
+    .hero {background: url('../img/banner-desktop.jpg') 89% center/cover no-repeat;}
+    .hero .logo {top: 5%;left: 0;right: 0;}
     .hero .logo img {width: 270px;}
-    .hero .offer-text {left: 0;right: 0; top: unset; bottom: 25%;}
-    .hero .offer-text h2 {font-size: 24px;}
-    .hero .offer-text h1 {font-size: 36px;}
+    .hero .offer-text {left: 0;right: 0; top: unset; bottom: 15%;}
+    .hero .offer-text h2 {font-size: 28px;}
+    .hero .offer-text h1 {font-size: 50px;}
     .hero .offer-text button {max-width: 153px; height: 42px; font-size: 18px; margin-top: 20px;}
 
     .marquee {height: 45px;}
@@ -45,8 +45,7 @@ img {max-width:100%}
 
     .featured .content h2 {font-size: 36px;}
     .featured .content h3,
-    .genting-live .content h3,
-    .most-played-games .content h3 {font-size: 25px;}
+    .genting-live .content h3 {font-size: 25px;}
 
     .genting-casino .content h2 {font-size: 32px;}
 
@@ -70,17 +69,13 @@ img {max-width:100%}
    
 }/****940px LANDSCAPE****/
 
-@media screen and (max-width:768px) {
-    .hero {background: url(../img/mobile/banner-m.jpg) center 20%/cover no-repeat;}
-    .hero .logo {top: 5%;}
-    .hero .logo img {width: 350px;}
+@media screen and (min-width:480px) and (max-width:767px) {
+    .hero {background: url('../img/mobile/banner-m.jpg') 90% center/cover no-repeat;}
+    .hero .logo {top: 5%}
+    .hero .logo img {width: 300px;}
+    .hero .offer-text {bottom: 17%;}
     .hero .offer-text h2 {font-size: 30px;}
-    .hero .offer-text h1 {font-size: 50px;}
-    .hero .offer-text {bottom: 15%;}
-    .howtoplay .content h2 {font-size: 40px;}
-    .genting-casino .genting-container p {font-size: 22px;}
-    .genting-casino .content h2 {font-size: 35px;}
-
+    
   
 }/****768px****/
 
@@ -89,9 +84,14 @@ img {max-width:100%}
     .splide__slide img {width:52vw}
     .splide { margin-right: -1rem;}
 
-    /* .hero .offer-text {bottom: 30%;} */
+.hero {background: url('../img/mobile/banner-m.jpg') 90% center/cover no-repeat;}
+    .hero .offer-text {bottom: 22%;}
+    .hero .offer-text h2 {font-size: 23px;}
+    .hero .offer-text h1 {font-size: 36px;}
 }/****640px****/
 
 @media screen and (max-width:375px) {
-    .hero .offer-text {bottom: 30%;}
+    .hero {background: url('../img/mobile/banner-m.jpg') center center/cover no-repeat;}
+    .hero .logo img {width: 250px;}
+    .hero .offer-text {bottom: 27%;}
 }
