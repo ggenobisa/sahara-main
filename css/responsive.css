@@ -76,7 +76,6 @@ img {max-width:100%}
 }/****940px LANDSCAPE****/
 
 @media screen and (min-width:480px) and (max-width:767px) {
-    /* .hero {background: url('../img/mobile/banner-m.jpg') 90% center/cover no-repeat;} */
     .hero .logo {top: 5%}
     .hero .logo img {width: 300px;}
     .hero .offer-text {bottom: 20%;}
